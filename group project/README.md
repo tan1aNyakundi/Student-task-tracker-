@@ -18,7 +18,7 @@ A simple Flask web application for managing student tasks.
 2. Install Flask: `pip install flask`
 3. Run the database initialization: `python init_db.py`
 4. Run the app: `python app.py`
-5. Open your browser to `http://127.0.0.1:5000/`
+5. Open your browser to http://127.0.0.1:5000/
 
 ## Project Structure
 
