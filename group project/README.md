@@ -37,8 +37,11 @@ To deploy this app to a hosting service for your lecturer to view the live websi
 2. Sign up for a free account on [Render](https://render.com/).
 3. Create a new Web Service, connect your GitHub repo.
 4. Set the following:
+   - **Root Directory**: `group project`
    - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `gunicorn app:app`
 5. Deploy. Render will provide a live URL (e.g., https://your-app.onrender.com).
+
+**Live Demo**: [https://student-task-tracker-1.onrender.com/](https://student-task-tracker-1.onrender.com/)
 
 Alternatively, use Railway or Heroku. The app is configured for production deployment.
